@@ -6,6 +6,7 @@ async function mapperCartUpdate(body, event) {
 
         var correo = body.email;
 
+        
         var description = {
             event_type: event,
             properties: {
